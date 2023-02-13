@@ -1,0 +1,570 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:focus {
+    outline: 0px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1;
+}
+
+.clr {
+    clear: both;
+}
+
+.main_btn{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 35px;
+    margin: 0 10px;
+}
+.main_btn:hover{
+    transition: .2s all linear;
+    box-shadow: 0px 1px 20px 0px #753D9D;
+    color: #FFFFFF;
+}
+
+
+
+
+
+/* section head style */
+
+
+.section_head h2 {
+    border-left: 5px solid #753D9D;
+    padding-left: 20px;
+    color: #0D113D;
+    text-transform: uppercase;
+}
+
+
+
+/* End of common CSS */
+
+/*=========================
+
+    02.HEADER AREA CSS
+
+=========================*/
+.overlay{
+    background-color: rgb(25, 11, 35, 0.6);
+      
+}
+.header_area .bg_img{
+    background: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.head .navbar{
+    background: transparent;
+    padding-top: 20px;
+}.head .navbar .navbar-nav{
+    margin: 0 auto;
+}
+.head .navbar .active a{
+    text-decoration: none;
+    color: #753D9D;
+    
+}.head .navbar a{
+    text-decoration: none;
+    color: #F5F5F5;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.head .navbar a:hover{
+    transition: .2s all linear;
+    color: #753D9D;
+}
+.banner_txt_part{
+    padding: 180px 0;
+}
+.banner_txt{
+    text-align: center;
+}
+.banner_txt h2{
+    font-weight: 800;
+    font-size: 65px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    
+    
+}.banner_txt h2 span{
+    color: #A066C9;
+}
+.banner_txt p{
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.btns :nth-child(2){
+    background: #A066C9;
+    border-color: #A066C9;
+}
+
+/*=========================
+
+    03.CREATIVE AREA CSS
+
+=========================*/
+
+.creative_area{
+    padding: 50px 0;
+}
+.creative_txt h2 {
+    color: #0D113D;
+    text-transform: uppercase;
+    border-left: 5px solid #753D9D;
+    padding-left: 20px;
+}
+.creative_txt h2 .bold{
+    font-weight: 600;
+}
+.creative_txt h2 .regular{
+    font-weight: 400;
+}
+.creative_txt h2 .logo{
+    color: #753D9D;
+}
+.creative_txt p{
+    font-weight: 300;
+    color: #0d113d;
+    font-size: 12px;
+    padding: 20px 0;
+}
+.creative_txt .main_btn{
+    color: #0D113D;
+    border-color: #0D113D;
+    margin: 0;
+}
+.creative_area .img{
+    width: 457px;
+    height: 385px;
+    background-image: url(../images/creative_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.creative_area .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(25, 11, 35, 0.6);
+}
+
+.bar{
+    border-top: 3px solid #E0E0E0;
+    margin: 50px 0;
+}
+
+.creative_area .parts .top span{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #0d113d;
+    padding-left: 10px;
+}
+.creative_area .parts .bottom p{
+    font-weight: 300;
+    font-size: 12px;
+    color: #0d113d;
+    padding-top: 20px;
+}
+
+/*=========================
+
+    04.DIGITAL AREA CSS
+
+=========================*/
+
+.digital_area .bg_img{
+    background: url(../images/digital_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+.digital_area .digital_txt{
+    text-align: center;
+    padding: 80px 0;
+}
+.digital_area .digital_txt h2{
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+.digital_area .digital_txt a{
+    background-color: #753D9D;
+    border-color: #753D9D;
+}
+
+/*=========================
+
+    05.SERVICES AREA CSS
+
+=========================*/
+
+.services_area{
+    padding: 80px 0;
+}
+.services_area .wrap_area .wrap_content{
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.services_area .wrap_area .wrap_content .wrap_img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.services_area .wrap_area .wrap_content .wrap_img img{
+    width: 100% !important;
+    height: 100%;
+}
+.services_area .wrap_area .wrap_content .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.services_area .wrap_area .wrap_content .overlay a{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    background: #753D9D;
+    width: 100%;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    
+}
+.services_area .wrap_area .wrap_content{
+    width: 100%;
+    height: 100%;
+    display: #140E2D;
+}
+.services_area .wrap_area .wrap_content .last .overlay a {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background: transparent;
+    width: 110px;
+    padding: 0;
+}
+.services_area .wrap_area .wrap_content .overlay .bar {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.services_area .support .img{
+    display: flex;
+    justify-content: center;
+}
+.services_area .support .list ul{
+    list-style-type:disc;
+    margin-left: 20px;
+    color: #616161;
+}
+.services_area .support .list ul li{
+    font-size: 15px;
+    font-weight: 400;
+    color: #616161;
+    line-height: 35px;
+}
+.services_area .suport_txt h2{
+    font-weight: 600;
+    font-size: 33px;
+    color: #0d113d;
+    margin-bottom: 20px;
+}
+.services_area .suport_txt p{
+    font-weight: 300;
+    font-size: 14px;
+    color: #0D113D;
+}
+.services_area .contact_site{
+    background: #753D9D;
+}
+.services_area .contact_site p{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 40px 0;
+}
+.services_area .contact_site .btns_m{
+    display: flex;
+    justify-content: end;
+}
+.services_area .contact_site .main_btn {
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 29px;
+    margin: 0;
+}
+
+/*=========================
+
+    06.PROTFOLIO AREA CSS
+
+=========================*/
+.protfolio_area{
+    padding-bottom: 50px;
+}
+.protfolio_area .wrap_icon {
+    color: #E9E9E9;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+}
+.protfolio_area .wrap_icon i{
+    margin-left: 10px;
+}
+.protfolio_area .wrap_icon i:hover{
+    transition: .2s linear;
+    color: #753D9D;
+}
+
+.protfolio_area .img{
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.protfolio_area .img img{
+    width: 100%;
+}
+.protfolio_area .img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+}
+
+/*=========================
+
+    07.BLOG AREA CSS
+
+=========================*/
+
+.blog_area{
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+.blog_content h6,
+p,
+a{
+    text-decoration: none;
+    margin: 0;
+}
+.blog_content h6{
+    color: #753d9d;
+    font-weight: 600;
+    font-size: 18px;
+}
+.blog_content p{
+    font-weight: 400;
+    color: #a2a2a2;
+    font-size: 15px;
+}
+.blog_content span{
+    font-weight: 400;
+    color: #a2a2a2;
+    font-size: 14px;
+}
+.blog_content a{
+    color: #0D113D;
+    font-weight: 600;
+    font-size: 15px;
+}
+.blog_content .bar{
+    margin: 30px 0;
+    border-top: 2px solid #E0E0E0;
+}
+
+/*=========================
+
+    08.FOOTER AREA CSS
+
+=========================*/
+
+.footer_area{
+    background: #0D113D;
+    padding-bottom: 30px;
+}
+.footer_area .registration{
+    background: #753D9D;
+    padding: 25px 15px;
+}
+.footer_area .registration .btns_m{
+    display: flex;
+    justify-content: end;
+}
+.footer_area .registration h6{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+.footer_area .registration p{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.footer_area .registration input{
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #D3B1EB;
+    background: transparent;
+    border-radius: 5px;
+    width: 500px;
+    text-decoration: none;
+}
+.footer_area .registration input::placeholder{
+    color: #D3B1EB;
+}
+.footer_area .registration input:focus{
+    outline: none;
+}
+
+.footer_area .registration .main_btn{
+    margin: 0;
+    padding: 10px 30px;
+}
+
+.footer_area .bottom{
+    padding: 40px 0;
+    border-bottom: 1px solid #1E224D;
+}
+
+.footer_area .bottom .txt p{
+    font-weight: 300;
+    font-size: 14.5px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.footer_area .bottom .list ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+.footer_area .bottom .list ul li a:hover{
+    transition: .2s linear;
+    color: #753D9D;
+}
+.footer_area .credit{
+    padding-top: 30px;
+}
+.footer_area .credit p{
+    font-size: 15px;
+    color: #b3b5d1;
+    font-weight: 300;
+}
+.footer_area .credit .links{
+    display: flex;
+    justify-content: end;
+}
+.footer_area .credit .links a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
